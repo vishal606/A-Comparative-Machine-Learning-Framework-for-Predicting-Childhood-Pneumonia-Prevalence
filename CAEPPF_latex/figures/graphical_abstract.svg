@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="330" viewBox="0 0 1300 330" font-family="Arial, Helvetica, sans-serif"><defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 1L9 5L1 9z" fill="#555"/></marker></defs><rect width="1300" height="330" fill="#f7f7f5"/>
+<text x="650.0" y="48" text-anchor="middle" font-size="22" font-weight="700" fill="#1a3a5c">Community-Aware Explainable Pneumonia Prediction Framework (CAEPPF)</text>
+<rect x="40.0" y="95" width="140" height="120" rx="14" fill="#e6f1fb" stroke="#378add" stroke-width="2"/>
+<text x="110.0" y="139" text-anchor="middle" font-size="17" font-weight="700" fill="#0c447c">Patient Data</text>
+<text x="110.0" y="161" text-anchor="middle" font-size="17" font-weight="700" fill="#0c447c">799 children</text>
+<line x1="186.0" y1="155.0" x2="214.0" y2="155.0" stroke="#555" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="220.0" y="95" width="140" height="120" rx="14" fill="#eeedfe" stroke="#7f77dd" stroke-width="2"/>
+<text x="290.0" y="139" text-anchor="middle" font-size="17" font-weight="700" fill="#3c3489">Feature</text>
+<text x="290.0" y="161" text-anchor="middle" font-size="17" font-weight="700" fill="#3c3489">Engineering</text>
+<text x="290.0" y="191" text-anchor="middle" font-size="13.5" fill="#3c3489">28 features</text>
+<line x1="366.0" y1="155.0" x2="394.0" y2="155.0" stroke="#555" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="400.0" y="95" width="140" height="120" rx="14" fill="#e1f5ee" stroke="#1d9e75" stroke-width="2"/>
+<text x="470.0" y="139" text-anchor="middle" font-size="17" font-weight="700" fill="#0f6e56">11 ML Models</text>
+<text x="470.0" y="161" text-anchor="middle" font-size="17" font-weight="700" fill="#0f6e56">+ SMOTE</text>
+<text x="470.0" y="191" text-anchor="middle" font-size="13.5" fill="#0f6e56">leakage-free</text>
+<line x1="546.0" y1="155.0" x2="574.0" y2="155.0" stroke="#555" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="580.0" y="95" width="140" height="120" rx="14" fill="#faeeda" stroke="#ba7517" stroke-width="2"/>
+<text x="650.0" y="139" text-anchor="middle" font-size="17" font-weight="700" fill="#854f0b">Nested-CV</text>
+<text x="650.0" y="161" text-anchor="middle" font-size="17" font-weight="700" fill="#854f0b">Tuning</text>
+<text x="650.0" y="191" text-anchor="middle" font-size="13.5" fill="#854f0b">4 models tuned</text>
+<line x1="726.0" y1="155.0" x2="754.0" y2="155.0" stroke="#555" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="760.0" y="95" width="140" height="120" rx="14" fill="#fdf0d9" stroke="#d9902f" stroke-width="2"/>
+<text x="830.0" y="139" text-anchor="middle" font-size="17" font-weight="700" fill="#854f0b">Random Forest</text>
+<text x="830.0" y="161" text-anchor="middle" font-size="17" font-weight="700" fill="#854f0b">nested CV-AUC</text>
+<text x="830.0" y="191" text-anchor="middle" font-size="13.5" fill="#854f0b">0.883</text>
+<line x1="906.0" y1="155.0" x2="934.0" y2="155.0" stroke="#555" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="940.0" y="95" width="140" height="120" rx="14" fill="#faece7" stroke="#d85a30" stroke-width="2"/>
+<text x="1010.0" y="139" text-anchor="middle" font-size="17" font-weight="700" fill="#993c1d">SHAP</text>
+<text x="1010.0" y="161" text-anchor="middle" font-size="17" font-weight="700" fill="#993c1d">Explainability</text>
+<line x1="1086.0" y1="155.0" x2="1114.0" y2="155.0" stroke="#555" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="1120.0" y="95" width="140" height="120" rx="14" fill="#e6f1fb" stroke="#378add" stroke-width="2"/>
+<text x="1190.0" y="139" text-anchor="middle" font-size="17" font-weight="700" fill="#0c447c">CPSS + CHW</text>
+<text x="1190.0" y="161" text-anchor="middle" font-size="17" font-weight="700" fill="#0c447c">Model</text>
+<text x="1190.0" y="191" text-anchor="middle" font-size="13.5" fill="#0c447c">CHW AUC 0.854</text>
+<text x="650.0" y="262" text-anchor="middle" font-size="16" font-style="italic" fill="#444">Clinical findings carry the signal  •  Non-clinical predictors add +0.011 AUC  •  Top-4 models statistically tied (all p &gt; 0.29)</text>
+<text x="650.0" y="292" text-anchor="middle" font-size="16" font-style="italic" fill="#444">Probabilities need local recalibration  •  External and prospective validation required</text></svg>
