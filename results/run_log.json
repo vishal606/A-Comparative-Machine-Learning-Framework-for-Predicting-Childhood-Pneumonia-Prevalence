@@ -1,0 +1,68 @@
+{
+  "versions": {
+    "python": "3.9.23",
+    "platform": "macOS-13.7.8-x86_64-i386-64bit",
+    "numpy": "2.0.2",
+    "pandas": "2.3.1",
+    "scipy": "1.13.1",
+    "sklearn": "1.6.1",
+    "imblearn": "0.12.4",
+    "xgboost": "2.1.4",
+    "lightgbm": "4.6.0",
+    "shap": "0.48.0"
+  },
+  "seed": 42,
+  "quick_mode": false,
+  "n_boot": 2000,
+  "dataset": {
+    "n_total": 799,
+    "n_features": 28,
+    "n_pos": 218,
+    "n_neg": 581,
+    "pos_rate": 0.27284105131414266
+  },
+  "split": {
+    "n_train": 639,
+    "n_test": 160,
+    "train_pos": 174,
+    "train_neg": 465,
+    "test_pos": 44,
+    "test_neg": 116
+  },
+  "selected_model": "Random Forest (Tuned)",
+  "top4_by_cv": [
+    "Random Forest (Tuned)",
+    "XGBoost (Tuned)",
+    "Logistic Regression (Tuned)",
+    "LightGBM (Tuned)"
+  ],
+  "best_params": {
+    "Logistic Regression (Tuned)": {
+      "C": 0.21584494295802448,
+      "max_iter": 1000,
+      "solver": "saga"
+    },
+    "Random Forest (Tuned)": {
+      "max_depth": 10,
+      "max_features": "log2",
+      "min_samples_leaf": 2,
+      "min_samples_split": 5,
+      "n_estimators": 290
+    },
+    "XGBoost (Tuned)": {
+      "colsample_bytree": 0.610167650697638,
+      "learning_rate": 0.031578285398660894,
+      "max_depth": 3,
+      "n_estimators": 151,
+      "subsample": 0.8253102287905535
+    },
+    "LightGBM (Tuned)": {
+      "colsample_bytree": 0.6062545626964776,
+      "learning_rate": 0.09468029614127392,
+      "min_child_samples": 5,
+      "n_estimators": 235,
+      "num_leaves": 43,
+      "subsample": 0.6056319290860338
+    }
+  }
+}

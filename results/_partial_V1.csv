@@ -1,0 +1,2 @@
+Variant,Model,N,Events,Predictors,Train_n,Test_n,Test_events,Tuning_CV_AUC,Test_AUC,CI_low,CI_high,Recall_at_0_5,Nested_CV_AUC
+V1 no chest X-ray,Logistic Regression (Tuned),799,218,27,639,160,44,0.864004698653655,0.8734326018808777,0.8056426332288401,0.9329937304075235,0.75,0.8718044637209722
