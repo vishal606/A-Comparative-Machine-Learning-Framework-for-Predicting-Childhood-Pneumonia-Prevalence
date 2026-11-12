@@ -1,0 +1,13 @@
+Variant,Model,N,Events,Predictors,Test_AUC
+V1: No Chest X-ray,Logistic Regression,799,218,27,0.873628526645768
+V1: No Chest X-ray,Random Forest,799,218,27,0.886755485893417
+V1: No Chest X-ray,XGBoost,799,218,27,0.8393416927899686
+V1: No Chest X-ray,LightGBM,799,218,27,0.8285658307210031
+V2: Narrow outcome (all predictors),Logistic Regression,665,84,28,0.7434077079107505
+V2: Narrow outcome (all predictors),Random Forest,665,84,28,0.8275862068965517
+V2: Narrow outcome (all predictors),XGBoost,665,84,28,0.8336713995943205
+V2: Narrow outcome (all predictors),LightGBM,665,84,28,0.7799188640973631
+V3: Narrow outcome + No Chest X-ray,Logistic Regression,665,84,27,0.7515212981744421
+V3: Narrow outcome + No Chest X-ray,Random Forest,665,84,27,0.8128803245436105
+V3: Narrow outcome + No Chest X-ray,XGBoost,665,84,27,0.8184584178498986
+V3: Narrow outcome + No Chest X-ray,LightGBM,665,84,27,0.7895537525354969

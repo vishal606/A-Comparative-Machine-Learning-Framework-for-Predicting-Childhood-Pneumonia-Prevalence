@@ -1,0 +1,55 @@
+{
+  "software_versions": {
+    "python": "3.13.18",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.6.0",
+    "imblearn": "0.14.2",
+    "shap": "0.54.1"
+  },
+  "random_seed": 42,
+  "n_patients_final": 799,
+  "n_features": 28,
+  "prevalence": 0.27284105131414266,
+  "train_size": 639,
+  "test_size": 160,
+  "primary_model": "Logistic Regression (Tuned)",
+  "primary_nested_cv_auc": 0.899792734886961,
+  "final_hyperparameters": {
+    "Logistic Regression": {
+      "C": 0.001267425589893723,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    },
+    "Random Forest": {
+      "n_estimators": 200,
+      "min_samples_leaf": 1,
+      "max_features": "log2",
+      "max_depth": 10
+    },
+    "XGBoost": {
+      "colsample_bytree": 0.836965827544817,
+      "learning_rate": 0.019290082543999547,
+      "max_depth": 5,
+      "min_child_weight": 7,
+      "n_estimators": 120,
+      "subsample": 0.7801997007878172
+    },
+    "AdaBoost": {
+      "learning_rate": 0.06808361216819946,
+      "n_estimators": 200
+    },
+    "LightGBM": {
+      "colsample_bytree": 0.610167650697638,
+      "learning_rate": 0.031578285398660894,
+      "n_estimators": 162,
+      "num_leaves": 71,
+      "subsample": 0.8253102287905535
+    }
+  },
+  "model_selection_criterion": "Highest mean nested-CV ROC-AUC",
+  "tuning_method": "RandomizedSearchCV, scoring=roc_auc, 5-fold stratified inner CV"
+}
